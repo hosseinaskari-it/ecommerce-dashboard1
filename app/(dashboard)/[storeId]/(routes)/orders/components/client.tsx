@@ -19,7 +19,7 @@ export const OrderClient: React.FC<OrderClientProps> = ({ data }) => {
       />
 
       <Separator />
-      <DataTable searchkey="label" columns={columns} data={data} />
+      <DataTable searchKey="name" columns={columns} data={data} />
       <ApiList entityName="products" entityIdName="productsId" />
     </>
   );
